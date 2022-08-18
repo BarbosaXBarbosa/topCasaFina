@@ -23,9 +23,23 @@
     min-height: 200px;
 }
 
+.contato-form {
+    padding-bottom: 15px;
+}
+
 .contato-select,
 .grupo-radio {
     width: 50%;
     display: inline-block;
     vertical-align: middle;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px ;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
 }
