@@ -22,3 +22,10 @@
     width: 100%;
     min-height: 200px;
 }
+
+.contato-select,
+.grupo-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
