@@ -9,7 +9,35 @@
 </head>
 <body>
 
-    <div class="container">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+    
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+    
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="#sobre-nos">Sobre Nós</a></li>
+                        <li> <a href="#nossos-projetos">Nossos Projetos</a></li> 
+                        <li> <a href="#video-institucional">Video Institucional</a></li> 
+                        <li> <a href="#depoimento-cliente">Depoimento de Clientes</a></li> 
+                        <li> <a href="#contato">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="sobre-nos" class="container">
         <h2>Sobre Nós</h2>
         <img class="img-responsive" src="img/empresa.jpg" alt="Foto da empresa">
         <div class="panel-group" id="paineis-sobre">
@@ -46,7 +74,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="jumbotron">
         <div class="container">
@@ -55,7 +83,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
 
         <figure class="thumbnail">
@@ -99,7 +127,7 @@
         </figure>
     </section>
 
-    <section>
+    <section id="depoimento-cliente">
         <h2 class="container titulo-depoimentos">Depoimento de clientes</h2>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -146,14 +174,14 @@
         </div>
     </section>
 
-    <section class="container">
+    <section id="video-institucional" class="container">
         <h2>Vídeo Institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
     
-    <section class="contato-form container">
+    <section id="contato" class="contato-form container">
         <h2>Contato</h2>
         <form>
             <div class="form-group">
