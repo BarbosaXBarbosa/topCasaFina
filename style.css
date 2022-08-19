@@ -71,3 +71,12 @@ footer {
 footer address:last-child {
     margin-bottom: 0;
 }
+
+
+@media(min-width: 768px){
+
+    #paineis-sobre {
+        margin-top: 0;
+    }
+
+}
